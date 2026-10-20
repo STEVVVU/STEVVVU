@@ -1,6 +1,6 @@
 # Profile source
 
-The README composition and three visual generators are copied from [navi3582/animated-github-profile](https://github.com/navi3582/animated-github-profile/tree/2623020d4279dc4dfbae967795e865d784031b98), commit `2623020d4279dc4dfbae967795e865d784031b98`. The original [MIT license](../LICENSE) is retained unchanged. The upstream template credits [Avi Vashishta's write-up](https://www.avivashishta.com/blog/build-animated-github-profile-readme.html).
+The contribution calendar and optional portrait and info-card generators are copied from [navi3582/animated-github-profile](https://github.com/navi3582/animated-github-profile/tree/2623020d4279dc4dfbae967795e865d784031b98), commit `2623020d4279dc4dfbae967795e865d784031b98`. The original [MIT license](../LICENSE) is retained unchanged. The upstream template credits [Avi Vashishta's write-up](https://www.avivashishta.com/blog/build-animated-github-profile-readme.html). The current README uses the calendar beneath factual work, tools, and project sections.
 
 The portrait and heatmap renderers are unchanged. The info-card renderer changes only `TITLE` and `ROWS` to Steven Vu's public details. The input image is the public STEVVVU arctic fox avatar, saved unchanged as `source-prepped.png`. No background-removal model or photo preprocessing is required.
 
@@ -20,4 +20,4 @@ python scripts/render_heatmap_svg.py
 
 In PowerShell, set `$env:PYTHONUTF8='1'` before running the scripts. In Bash, use `export PYTHONUTF8=1`. The calendar defaults to STEVVVU; set the `GITHUB_USERNAME` environment variable only to override it. Update the snapshot date in the README when refreshing the calendar.
 
-The calendar is a public contribution snapshot, not live telemetry. No scheduled workflow, secret, token, third-party stats endpoint, or external SVG resource is used. Animations play once and settle. The table layout and image widths follow the upstream template.
+The calendar is a public contribution snapshot, not live telemetry. No scheduled workflow, secret, token, third-party stats endpoint, or external SVG resource is used. Animations play once and settle. The portrait and info card remain available as optional assets and are not displayed in the current README.
