@@ -12,12 +12,12 @@ I build systems software, developer tools, and graphics. I like projects where t
 
 | Project | A closer look |
 | :--- | :--- |
-| [**stratadb**](https://github.com/STEVVVU/stratadb) | A Rust storage engine with a checksummed write-ahead log, atomic batches, snapshots, and crash recovery. |
-| [**edgeproxy**](https://github.com/STEVVVU/edgeproxy) | An HTTP/1.1 reverse proxy in Rust. Bounded concurrency, health checks, circuit breakers, and phase-aware retries. |
-| [**durableflow**](https://github.com/STEVVVU/durableflow) | A Python job queue with durable state, fenced worker leases, retry scheduling, and recovery tests. |
-| [**warpforge-mlir**](https://github.com/STEVVVU/warpforge-mlir) | An LLVM/MLIR optimizer for neural-network workloads, with graph fusion, tiling, vectorization, and progressive lowering. |
-| [**chainindex**](https://github.com/STEVVVU/chainindex) | An EVM event indexer that handles chain reorganizations, paired with a Solidity escrow contract and deterministic tests. |
-| [**lumenforge-webgl**](https://github.com/STEVVVU/lumenforge-webgl) | A WebGL2 renderer and glTF inspector with deferred PBR lighting, object picking, and frame diagnostics. |
+| [**StrataDB**](https://github.com/STEVVVU/stratadb) | A Rust storage engine with a checksummed write-ahead log, atomic batches, snapshots, and crash recovery. |
+| [**EdgeProxy**](https://github.com/STEVVVU/edgeproxy) | An HTTP/1.1 reverse proxy in Rust. Bounded concurrency, health checks, circuit breakers, and phase-aware retries. |
+| [**DurableFlow**](https://github.com/STEVVVU/durableflow) | A Python job queue with durable state, fenced worker leases, retry scheduling, and recovery tests. |
+| [**WarpForge**](https://github.com/STEVVVU/warpforge-mlir) | An LLVM/MLIR optimizer for neural-network workloads, with graph fusion, tiling, vectorization, and progressive lowering. |
+| [**ChainIndex**](https://github.com/STEVVVU/chainindex) | An EVM event indexer that handles chain reorganizations, paired with a Solidity escrow contract and deterministic tests. |
+| [**LumenForge**](https://github.com/STEVVVU/lumenforge-webgl) | A WebGL2 renderer and glTF inspector with deferred PBR lighting, object picking, and frame diagnostics. |
 
 ### More to explore
 
