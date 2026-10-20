@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="220" viewBox="0 0 400 220" role="img" aria-labelledby="title desc">
+<title id="title">LumenForge</title><desc id="desc">glTF inspection, deferred PBR lighting, object picking, and frame diagnostics.</desc>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.trace{stroke-dasharray:1600;animation:draw 4.6s ease-out both}.arrive{animation:arrive 1.2s ease-out both}.orbit{transform-origin:770px 174px;animation:orbit 4.6s ease-out both}.spark{animation:spark 4.6s ease-out both}@keyframes draw{from{stroke-dashoffset:1600;opacity:.1}to{stroke-dashoffset:0;opacity:1}}@keyframes arrive{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}@keyframes orbit{from{transform:rotate(-32deg);opacity:.2}to{transform:rotate(0);opacity:1}}@keyframes spark{0%,100%{opacity:.5}35%,70%{opacity:1}}@media(prefers-reduced-motion:reduce){.trace,.arrive,.orbit,.spark{animation:none}}</style>
+<rect x="1" y="1" width="398" height="218" rx="12" fill="#0b1214" stroke="#284247"/>
+    <text x="24" y="29" class="mono" font-size="11" letter-spacing="1.2" fill="#a8f0c6">06 / GRAPHICS</text>
+    <text x="24" y="65" font-size="28" font-weight="650" letter-spacing="-.6" fill="#eff8f3">LumenForge</text>
+    <path d="M360 42H374V56M374 42L357 59" fill="none" stroke="#a8f0c6" stroke-width="1.5"/>
+    <text x="24" y="94" font-size="16" fill="#b2c8c4">Deferred PBR rendering.</text>
+    <text x="24" y="116" font-size="16" fill="#b2c8c4">glTF inspection and frame diagnostics.</text>
+    <g fill="none" stroke="#284247" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M40 145L68 130L97 145V177L68 193L40 177ZM40 145L68 162L97 145M68 162V193M121 161H165M215 161H259M309 161H359"/><circle cx="190" cy="161" r="24" fill="#101d20" stroke="#a8f0c6"/><path d="M175 146L205 176M174 174L204 147" stroke="#a8f0c6"/><rect x="263" y="137" width="45" height="47" rx="4" fill="#101d20"/><path d="M275 149H296M275 160H296M275 171H289" stroke="#ffbc80"/></g>
+    <text x="24" y="209" class="mono" font-size="10" letter-spacing="1" fill="#b2c8c4">TYPESCRIPT / WEBGL2</text>
+</svg>

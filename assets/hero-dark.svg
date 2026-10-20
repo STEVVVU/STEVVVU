@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+<title id="title">Steven Vu. Systems in motion.</title><desc id="desc">A geometric arctic fox sits inside a wireframe globe. Orbit lines draw in and settle. Software, systems, and experiments in Rust, Python, TypeScript, and CUDA.</desc>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.trace{stroke-dasharray:1600;animation:draw 4.6s ease-out both}.arrive{animation:arrive 1.2s ease-out both}.orbit{transform-origin:770px 174px;animation:orbit 4.6s ease-out both}.spark{animation:spark 4.6s ease-out both}@keyframes draw{from{stroke-dashoffset:1600;opacity:.1}to{stroke-dashoffset:0;opacity:1}}@keyframes arrive{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}@keyframes orbit{from{transform:rotate(-32deg);opacity:.2}to{transform:rotate(0);opacity:1}}@keyframes spark{0%,100%{opacity:.5}35%,70%{opacity:1}}@media(prefers-reduced-motion:reduce){.trace,.arrive,.orbit,.spark{animation:none}}</style>
+<defs>
+      <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#284247" stroke-width=".6"/></pattern>
+      <radialGradient id="halo"><stop stop-color="#a8f0c6" stop-opacity=".13"/><stop offset="1" stop-color="#0b1214" stop-opacity="0"/></radialGradient>
+    </defs>
+    <rect x="1" y="1" width="958" height="358" rx="16" fill="#0b1214" stroke="#284247"/>
+    <path d="M1 39H959" stroke="#284247"/>
+    <circle cx="23" cy="20" r="4" fill="#ffbc80"/><circle cx="39" cy="20" r="4" fill="#a8f0c6"/><circle cx="55" cy="20" r="4" fill="#88cce8"/>
+    <text x="80" y="24" font-size="11" class="mono" letter-spacing="1.3" fill="#b2c8c4">STEVVVU / ENGINEERING WORKBENCH</text>
+    <rect x="575" y="40" width="383" height="318" fill="url(#grid)"/>
+    <circle cx="770" cy="174" r="166" fill="url(#halo)"/>
+    <g>
+      <text x="40" y="94" class="mono" font-size="14" letter-spacing="3" fill="#a8f0c6">SOFTWARE / SYSTEMS / EXPERIMENTS</text>
+      <text x="34" y="184" font-size="88" font-weight="700" letter-spacing="-4" fill="#eff8f3">Steven Vu<tspan fill="#a8f0c6">.</tspan></text>
+      <text x="40" y="234" font-size="30" font-weight="500" letter-spacing="-.5" fill="#eff8f3">Systems in motion.</text>
+      <text x="40" y="270" font-size="19" fill="#b2c8c4">Storage, compilers, and graphics.</text>
+    </g>
+    <path class="trace" d="M40 305H112L124 293H202L214 305H322L334 293H460" stroke="#a8f0c6" stroke-width="1.5" fill="none"/>
+    <g class="mono" font-size="12" letter-spacing="1.3" fill="#b2c8c4">
+      <text x="40" y="333">RUST</text><text x="131" y="333">PYTHON</text><text x="242" y="333">TYPESCRIPT</text><text x="390" y="333">CUDA</text>
+    </g>
+    <g class="orbit" fill="none" stroke="#284247" stroke-width="1">
+      <circle cx="770" cy="174" r="119"/><ellipse cx="770" cy="174" rx="72" ry="119"/>
+      <ellipse cx="770" cy="174" rx="119" ry="45"/><ellipse cx="770" cy="174" rx="119" ry="88"/>
+      <path d="M651 174H889M770 55V293"/>
+      <ellipse class="trace" cx="770" cy="174" rx="144" ry="52" transform="rotate(-33 770 174)" stroke="#a8f0c6" stroke-width="1.2"/>
+    </g>
+    <g class="arrive" stroke="#a8f0c6" stroke-linejoin="round" stroke-width="1.4">
+      <path d="M715 108L748 142L793 142L824 108L813 205L770 237L727 205Z" fill="#101d20"/>
+      <path d="M715 108L748 142L727 205Z" fill="#a8f0c6" fill-opacity=".14"/>
+      <path d="M824 108L793 142L813 205Z" fill="#88cce8" fill-opacity=".16"/>
+      <path d="M748 142L770 206L793 142M727 205L770 206L813 205M770 206V237" fill="none"/>
+      <path d="M737 172L751 177M790 177L803 172" stroke="#eff8f3" stroke-width="3"/>
+      <path d="M764 204H777L770 212Z" fill="#ffbc80" stroke="#ffbc80"/>
+    </g>
+    <g class="spark" fill="#ffbc80"><circle cx="651" cy="174" r="4"/><circle cx="857" cy="112" r="4"/></g>
+    <g fill="#a8f0c6"><circle cx="770" cy="55" r="3"/><circle cx="833" cy="275" r="3"/></g>
+    <g class="mono" font-size="10" letter-spacing="1.4" fill="#b2c8c4">
+      <text x="628" y="316">PERSIST</text><text x="740" y="316">COMPUTE</text><text x="855" y="316">RENDER</text>
+    </g>
+</svg>
